@@ -1,5 +1,7 @@
 # CodePushDemoApp
 
+## HOWTO iOS
+
 ### Installation software 3rd party
 
 - Installer Homebrew
@@ -100,5 +102,5 @@ react-native run-ios --device
 - Pousser des updates en Staging
 Modifier le fichier index.ios.js (genre changer le hello world etc), puis:
 ```sh
-code-push release-react CodePushDemoApp ios
+code-push release-react CodePushDemoApp ios -d Staging
 ```
