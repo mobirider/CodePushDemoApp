@@ -106,10 +106,10 @@ class CodePushDemoApp extends Component {
           Welcome to CodePush!
         </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
-          <Text style={styles.syncButton}>Press for background sync</Text>
+          <Text style={styles.syncButton}>Press ANDROID background sync</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={this.syncImmediate.bind(this)}>
-          <Text style={styles.syncButton}>Press BLABLABLA dialog-driven sync</Text>
+          <Text style={styles.syncButton}>Press for dialog-driven sync</Text>
         </TouchableOpacity>
         {progressView}
         <Image style={styles.image} resizeMode={Image.resizeMode.contain} source={require("./images/laptop_phone_howitworks.png")}/>

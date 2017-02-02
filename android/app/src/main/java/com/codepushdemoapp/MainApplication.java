@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
 
-  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
     @Override
     protected String getJSBundleFile() {
       return CodePush.getJSBundleFile();
@@ -30,7 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new CodePush("deployment-key-here", MainApplication.this, BuildConfig.DEBUG)
+          new CodePush("LsBuwvdf2QC1Zsknhb_vVwSc24e2VJA6z2q8M", MainApplication.this, BuildConfig.DEBUG)
       );
     }
   };
