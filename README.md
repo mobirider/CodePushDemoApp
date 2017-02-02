@@ -33,7 +33,7 @@ npm install
 
 - Signer le code sous Xcode
 ```sh
-open ios/mon_projet.xcodeproj/
+open ios/CodePushDemoApp.xcodeproj/
 ```
 Puis aller dans la Target "CodePushDemoApp", onglet General, et sélectionner dans Signing la bonne Team (Olivier Huguenot, ou le compte Mobi Rider chez Apple)
 
