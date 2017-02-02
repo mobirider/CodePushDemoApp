@@ -68,7 +68,7 @@ npm install --save react-native-code-push@latest
 - Installation du plugin iOS:
 Trouver la Deployment Key "Staging"
 ```sh
-code-push deployment ls mon_projet -k
+code-push deployment ls CodePushDemoApp -k
 ```
 
 ```sh
@@ -82,11 +82,11 @@ Si l'étape du dessus a été suivie, c'est déjà fait, sinon voir https://gith
 
 - Staging / Production
 ```sh
-code-push deployment ls mon_projet -k
+code-push deployment ls CodePushDemoApp -k
 ```
 copier la Deployment Key "Staging", puis ouvrir le projet Xcode:
 ```sh
-open ios/mon_projet.xcodeproj/
+open ios/CodePushDemoApp.xcodeproj/
 ```
 modifier le fichier Info.plist, mettre la Key dans le champ "CodePushDeploymentKey"
 Les Deployment Key "Staging" et "Production" servent respectivement à tester des updates sur une app intégrant la Staging Key, et à pousser en Prod chez les users (qui ont la Production Key)
@@ -100,5 +100,5 @@ react-native run-ios --device
 - Pousser des updates en Staging
 Modifier le fichier index.ios.js (genre changer le hello world etc), puis:
 ```sh
-code-push release-react mon_projet ios
+code-push release-react CodePushDemoApp ios
 ```
