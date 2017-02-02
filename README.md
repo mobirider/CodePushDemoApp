@@ -22,6 +22,13 @@ sudo npm install -g react-native-cli
 npm install -g code-push-cli
 ```
 
+- Puis
+```sh
+npm install
+```
+
+
+
 ### Configuration projet
 
 - Signer le code sous Xcode
